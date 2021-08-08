@@ -16,6 +16,15 @@
             "messages":{
                 "success":"Bot's language has been changed successfully."
             }
+        },
+        "setPrefix":{
+            "errors":{
+                "long":"Yeni prefix çok uzun. Max 3 karakter olabilir"
+            },
+            "messages":{
+                "prefix":"Bot prefixi: ",
+                "newPrefix":"Bot prefixi değiştirildi: "
+            }
         }
     }
 }
