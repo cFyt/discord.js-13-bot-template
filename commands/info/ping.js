@@ -13,6 +13,19 @@ module.exports.run = (client, message, args) => {
 }
 module.exports.conf = {
     "name": "ping",
-    "description": "Bot pingibi ölçer",
-    "aliases": ["sure", "süre"]
+    "description": [{
+        "lang": "tr",
+        "description": "Bot pingini ölçer."
+    }, {
+        "lang": "en",
+        "description": "Display bot's ping."
+    }],
+    "aliases": ["pingolc", "pingölç"],
+    "usage": [{
+        "lang": "tr",
+        "usage": "ping"
+    }, {
+        "lang": "en",
+        "usage": "ping"
+    }]
 }
