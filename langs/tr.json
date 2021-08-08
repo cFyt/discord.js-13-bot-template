@@ -1,0 +1,21 @@
+{
+    "shortcode": "tr",
+    "lang": "Türkçe",
+    "code": 0,
+    "errors": {
+        "noPerm": "Bunu yapmak için yetkin yok!",
+        "noChannel": "Bir kanal belirtmelisin.",
+        "wrongUsage": "Hatalı kullanım"
+    },
+    "commands": {
+        "setLang": {
+            "errors": {
+                "sameLang": "Bot dili zaten: ",
+                "noLang":"Bu bir dil kodu değil "
+            },
+            "messages":{
+                "success":"Bot's language has been changed successfully."
+            }
+        }
+    }
+}

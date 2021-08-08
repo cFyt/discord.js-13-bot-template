@@ -1,0 +1,7 @@
+{
+    "_comment": "timeout is for commands",
+    "token": "your bot token",
+    "prefix": "!",
+    "appID": "app id for slash commands",
+    "timeout": 5
+}

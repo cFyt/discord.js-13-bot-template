@@ -1,0 +1,30 @@
+{
+    "shortcode": "en",
+    "lang": "English",
+    "code": 1,
+    "errors": {
+        "noPerm": "You have not permission to do this!",
+        "noChannel": "You must specify a channel",
+        "wrongUsage": "You did wrong"
+    },
+    "commands": {
+        "setLang": {
+            "errors": {
+                "sameLang": "Bot's language already ",
+                "noLang":"This is not langauge "
+            },
+            "messages":{
+                "success":"Bot dili başarıyla değiştirildi."
+            }
+        },
+        "setPrefix":{
+            "errors":{
+                "long":"The new prefix is long. Max length is must be 3."
+            },
+            "messages":{
+                "prefix":"Bot's prefix: ",
+                "newPrefix":"Bot's prefix has been changed to "
+            }
+        }
+    }
+}
