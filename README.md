@@ -23,7 +23,7 @@ Bot template for Discord.js v13 with command handler, Slash (/) commands.
 
 # Installation
 
-1. Clone repository
+1. Download repository
 
 2. `$ npm i`
 
