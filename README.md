@@ -9,6 +9,18 @@ Bot template for Discord.js v13 with command handler, Slash (/) commands.
 
 `Quick.db`
 
+# Features
+
+> Command handler
+> 
+> Slash commands
+> 
+> Language change
+> 
+> Prefix change
+> 
+> Easy command file
+
 # Installation
 
 1. Clone repository
