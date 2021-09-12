@@ -3,28 +3,27 @@
     "lang": "Türkçe",
     "code": 0,
     "errors": {
-        "noPerm": "Bunu yapmak için yetkin yok!",
-        "noChannel": "Bir kanal belirtmelisin.",
-        "wrongUsage": "Hatalı kullanım"
+        "error": "HATA",
+        "noPerm": "Bunun için gerekli yetkiye sahip değilsin!",
+        "noChannel": "Bir kanal belirtmelisin",
+        "wrongUsage": "Hatalı kullanım",
+        "unknown": "Bilinmeyen bir hata meydana geldi."
+    },
+    "messages": {
+        "description": "Açıklama",
+        "views": "İzleyiciler",
+        "wait": "Lütfen bekleyin...",
+        "channel": "Kanal",
+        "click": "Buraya tıkla",
+        "usedby": "Tarafından kullanıldı",
+        "wentLive": "yayına geçti!",
+        "viewers": "Viewers",
+        "game": "Game",
+        "newvideo": "yeni video yayınladı!"
     },
     "commands": {
-        "setLang": {
-            "errors": {
-                "sameLang": "Bot dili zaten: ",
-                "noLang":"Bu bir dil kodu değil "
-            },
-            "messages":{
-                "success":"Bot's language has been changed successfully."
-            }
-        },
-        "setPrefix":{
-            "errors":{
-                "long":"Yeni prefix çok uzun. Max 3 karakter olabilir"
-            },
-            "messages":{
-                "prefix":"Bot prefixi: ",
-                "newPrefix":"Bot prefixi değiştirildi: "
-            }
-        }
+    },
+    "categories": {
+        "info": "Bilgi"
     }
 }
