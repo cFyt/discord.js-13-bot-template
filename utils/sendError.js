@@ -1,14 +1,31 @@
-const { MessageEmbed ,Message } = require('discord.js')
+const { MessageEmbed, Message } = require('discord.js')
 /**
  * @param {Message} message
  */
-function sendError(message, error) {
-    let errembed = new MessageEmbed()
-    .setAuthor(message.author.username,message.member.user.displayAvatarURL())
-    .setColor("DARK_RED")
-    .setTimestamp()
-    .setDescription(error)
-    message.channel.send({embeds: [errembed]})
+function sendError(message, error, reply) {
+    if (reply) {
+        message.channel.send({
+            embeds: [
+                new MessageEmbed()
+                    .setAuthor(message.user.username, message.user.displayAvatarURL())
+                    .setColor("DARK_RED")
+                    .setTimestamp()
+                    .setDescription(error)
+            ]
+        })
+    }
+    else {
+        message.reply({
+            embeds: [
+                new MessageEmbed()
+                    .setAuthor(message.user.username, message.user.displayAvatarURL())
+                    .setColor("DARK_RED")
+                    .setTimestamp()
+                    .setDescription(error)
+            ]
+        })
+    }
+
 }
 module.exports = {
     sendError
