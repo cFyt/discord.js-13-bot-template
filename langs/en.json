@@ -3,28 +3,27 @@
     "lang": "English",
     "code": 1,
     "errors": {
+        "error": "ERROR",
         "noPerm": "You have not permission to do this!",
         "noChannel": "You must specify a channel",
-        "wrongUsage": "You did wrong"
+        "wrongUsage": "You did wrong",
+        "unknown": "An unknown error"
+    },
+    "messages": {
+        "description": "Description",
+        "views": "Views",
+        "wait": "Please wait...",
+        "channel": "Channel",
+        "click": "Click Here",
+        "usedby": "Used by",
+        "wentLive": "went live!",
+        "viewers": "Viewers",
+        "game": "Game",
+        "newvideo": "published new video!"
     },
     "commands": {
-        "setLang": {
-            "errors": {
-                "sameLang": "Bot's language already ",
-                "noLang":"This is not langauge "
-            },
-            "messages":{
-                "success":"Bot dili başarıyla değiştirildi."
-            }
-        },
-        "setPrefix":{
-            "errors":{
-                "long":"The new prefix is long. Max length is must be 3."
-            },
-            "messages":{
-                "prefix":"Bot's prefix: ",
-                "newPrefix":"Bot's prefix has been changed to "
-            }
-        }
+    },
+    "categories": {
+        "info": "Info"
     }
 }
