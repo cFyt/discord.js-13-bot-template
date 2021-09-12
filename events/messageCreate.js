@@ -1,11 +1,10 @@
+//This template created by cFyt https://github.com/cFyt/discord.js-13-bot-template
 const { timeout } = require('../config.json');
 const { getLang } = require('../utils/getLang');
 const { getPrefix } = require('../utils/getprefix');
 const lastuse = new Set();
 
 module.exports = message => {
-//This template created by cFyt https://github.com/cFyt/discord.js-13-bot-template
-
     let client = message.client
     if (message.author.type == "bot") return
     let prefix = getPrefix(message)
